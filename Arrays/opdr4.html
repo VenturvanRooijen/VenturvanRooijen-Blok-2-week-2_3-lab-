@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Opdracht 4</title>
+</head>
+<body>
+<p id="spel"></p>
+
+<script>
+	var spellen = ['Monopoly', 'Yathzee', 'Bridge', 'Poker', 'Pesten', 'Mens erger je niet', 'Cluedo'];
+
+	var spel = document.getElementById("spel");
+
+	var randomspel = Math.floor((Math.random() * spellen.length));
+
+	spel.innerHTML = spellen[randomspel]
+</script>
+
+</body>
+</html>
